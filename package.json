@@ -1,36 +1,66 @@
 {
-  "name": "loopback-connector-cos",
-  "version": "0.1.0",
-  "description": "IBM Cloud Object Storage connector for LoopBack",
-  "engines": {
-    "node": ">=6"
-  },
-  "scripts": {
-    "test": "mocha",
-    "lint": "eslint --ignore-path .gitignore .",
-    "posttest": "npm run lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strongloop-community/loopback-connector-cos.git"
-  },
-  "keywords": [
-    "connector",
-    "datasource",
-    "loopback",
-    "strongloop",
-    "cos",
-    "object",
-    "storage",
-    "cloud"
+  "_args": [
+    [
+      {
+        "raw": "loopback-connector-cos/",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "loopback-connector-cos/",
+        "spec": "/home/conor/practice/apic_homemade_connector/myapp/node_modules/loopback-connector-cos",
+        "type": "directory"
+      },
+      "/home/conor/practice/apic_homemade_connector/myapp/node_modules"
+    ],
+    [
+      {
+        "raw": "loopback-connector-cos/",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "loopback-connector-cos/",
+        "spec": "/home/conor/practice/apic_homemade_connector/myapp/node_modules/loopback-connector-cos",
+        "type": "directory"
+      },
+      "/home/conor/practice/apic_homemade_connector/myapp/node_modules"
+    ]
   ],
-  "license": "MIT",
-  "dependencies": {},
+  "_from": "node_modules/loopback-connector-cos",
+  "_id": "loopback-connector-cos@1.0.0",
+  "_inCache": true,
+  "_location": "/loopback-connector-cos",
+  "_phantomChildren": {
+    "debug": "2.6.9"
+  },
+  "_requested": {
+    "raw": "loopback-connector-cos/",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "loopback-connector-cos/",
+    "spec": "/home/conor/practice/apic_homemade_connector/myapp/node_modules/loopback-connector-cos",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:node_modules/loopback-connector-cos",
+  "_shasum": "20734ce1f73d3485d18fad1306a17a7f1c8d519b",
+  "_shrinkwrap": null,
+  "_spec": "loopback-connector-cos/",
+  "_where": "/home/conor/practice/apic_homemade_connector/myapp/node_modules",
+  "dependencies": {
+    "ibm-cos-sdk": "1.2.3-0",
+    "loopback-connector": "2.3.0"
+  },
+  "description": "COS connector for loopback-datasource-juggler to be used with IBM Cloud Object Storage (COS)",
   "devDependencies": {
     "eslint": "^5.6.0",
-    "eslint-config-loopback": "^12.0.0",
-    "loopback-datasource-juggler": "^3.0.0",
-    "mocha": "^5.2.0",
-    "should": "^8.0.2"
-  }
+    "mocha": "~2.0.1"
+  },
+  "main": "index.js",
+  "name": "loopback-connector-cos",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "1.0.0"
 }

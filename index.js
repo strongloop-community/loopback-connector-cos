@@ -1,8 +1,5 @@
-// Copyright IBM Corp. 2018. All Rights Reserved.
-// Node module: loopback-connector-cos
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
 
-'use strict';
 
-/* export the connector constructor and any other public API here */
+//This simply states that main file is helloworld.js  in the lib folder.
+/*All LoopBack connectors follow same code structure, keeping the connector-specific code in the /lib folder of the connector.*/
+module.exports = require('./lib/cos.js');
