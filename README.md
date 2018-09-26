@@ -1,18 +1,22 @@
-<h2>Instructions on how to use this loopback connector with COS + APIC </h2>
+# loopback-connector-cos
 
-<p><i>Prerequisites: </i> 
-	<ul>
-			<li> 1) an APIC app set up</li>
-			<li> 2) an instance of Cloud Object Storage created</li>
-			<li> 3) service credentials generated for your COS instance </li>
-			<li> 4) an instance of Key Protect created </li>
-			<li> 5) a Key Protect root key created inside</li>
-			<li> 6) A bucket created inside your instance of COS </li>
-	</ul>
+IBM Cloud Object Storage connector for LoopBack
 
-<p>Add a new datasource to your APIC app by editing the <b>server/datasources.json</b> file</p>
+##Instructions on how to use this loopback connector with COS + APIC
 
-<p>The new datasource added must be created in the following format for the cos connector to work </p>
+_Prerequisites_
+
+1. an APIC app set up<
+2. an instance of Cloud Object Storage created
+3. service credentials generated for your COS instance 
+4. an instance of Key Protect created
+5. a Key Protect root key created inside
+6. a bucket created inside your instance of COS
+
+
+Add a new datasource to your APIC app by editing the **server/datasources.json** file
+
+The new datasource added must be created in the following format for the cos connector to work
 
 ```
 "cos": {
